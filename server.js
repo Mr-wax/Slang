@@ -5,7 +5,7 @@ import dotenv from 'dotenv'
 import bodyParser from 'body-parser'
 import connectDB from './SRC/DB/database.js'
 import router from './SRC/routes/index.js'
-
+   
 // initializing the dotenv method
 dotenv.config()
 
