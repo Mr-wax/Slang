@@ -41,7 +41,7 @@ export const deleteSingleUser = async (req, res) => {
         }
     } catch (error) {
         console.error('Error while deleting user:',error);
-        res.status(500).json({message: error.messaage})
+        res.status(500).json({message: error.message})
     }
 }
 
